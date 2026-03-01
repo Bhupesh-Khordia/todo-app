@@ -99,6 +99,10 @@ git remote add origin https://github.com/Bhupesh-Khordia/todo-app
 git push -u origin --all
 ```
 
+Screenshot (If wondering about how did i get a screenshot of this - I edited README.md later) - 
+![Logs - 2](image-2.png)
+
+
 ## 3. Final `todo.py` in main branch
 
 ```python
@@ -125,4 +129,13 @@ if __name__ == "__main__":
     add_task("Finish Assignment")
     list_tasks()
 
+```
+
+
+Edit - 
+- I forgot to commit screenshot images in repo, and since i am updating README.md, i will also have to commit it again.
+```
+git add image.png image-1.png image-2.png README.md
+git commit -m "images: Add screenshot logs for README.md"
+git push -u origin --all
 ```
